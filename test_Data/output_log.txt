@@ -1,65 +1,41 @@
 Initialize engine version: 4.5.2f1 (9abb1b59b47c)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 10.0]
-    Renderer: NVIDIA Quadro FX 770M (ID=0x65c)
-    Vendor:   NVIDIA
-    VRAM:     487 MB
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD FirePro M4000 (ID=0x682d)
+    Vendor:   ATI
+    VRAM:     1007 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: E:\School stuff\Research Project\Unity\test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading E:\School stuff\Research Project\Unity\test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: E:\School stuff\Research Project\Unity\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading E:\School stuff\Research Project\Unity\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: E:\School stuff\Research Project\Unity\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading E:\School stuff\Research Project\Unity\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: E:\School stuff\Research Project\Unity\test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading E:\School stuff\Research Project\Unity\test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-Platform assembly: E:\School stuff\Research Project\Unity\test_Data\Managed\HOTween.dll (this message is harmless)
-Loading E:\School stuff\Research Project\Unity\test_Data\Managed\HOTween.dll into Unity Child Domain
-- Completed reload, in  0.373 seconds
-desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
+Platform assembly: D:\MyDocs\Documents\MONSTER FOLDER\EYE ON THE PIE\RESEARCH-NET-ZERO\REPO\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\MyDocs\Documents\MONSTER FOLDER\EYE ON THE PIE\RESEARCH-NET-ZERO\REPO\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\MyDocs\Documents\MONSTER FOLDER\EYE ON THE PIE\RESEARCH-NET-ZERO\REPO\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\MyDocs\Documents\MONSTER FOLDER\EYE ON THE PIE\RESEARCH-NET-ZERO\REPO\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\MyDocs\Documents\MONSTER FOLDER\EYE ON THE PIE\RESEARCH-NET-ZERO\REPO\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\MyDocs\Documents\MONSTER FOLDER\EYE ON THE PIE\RESEARCH-NET-ZERO\REPO\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\MyDocs\Documents\MONSTER FOLDER\EYE ON THE PIE\RESEARCH-NET-ZERO\REPO\test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\MyDocs\Documents\MONSTER FOLDER\EYE ON THE PIE\RESEARCH-NET-ZERO\REPO\test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\MyDocs\Documents\MONSTER FOLDER\EYE ON THE PIE\RESEARCH-NET-ZERO\REPO\test_Data\Managed\HOTween.dll (this message is harmless)
+Loading D:\MyDocs\Documents\MONSTER FOLDER\EYE ON THE PIE\RESEARCH-NET-ZERO\REPO\test_Data\Managed\HOTween.dll into Unity Child Domain
+- Completed reload, in  0.631 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x2160 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: E:\School stuff\Research Project\Unity\test_Data\Managed\System.Data.dll (this message is harmless)
-Platform assembly: E:\School stuff\Research Project\Unity\test_Data\Managed\UnityScript.Lang.dll (this message is harmless)
-Platform assembly: E:\School stuff\Research Project\Unity\test_Data\Managed\Boo.Lang.dll (this message is harmless)
-UnloadTime: 2.385071 ms
-System memory in use before: 99.8 MB.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 90.8 MB.
+Platform assembly: D:\MyDocs\Documents\MONSTER FOLDER\EYE ON THE PIE\RESEARCH-NET-ZERO\REPO\test_Data\Managed\System.Data.dll (this message is harmless)
+Platform assembly: D:\MyDocs\Documents\MONSTER FOLDER\EYE ON THE PIE\RESEARCH-NET-ZERO\REPO\test_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: D:\MyDocs\Documents\MONSTER FOLDER\EYE ON THE PIE\RESEARCH-NET-ZERO\REPO\test_Data\Managed\Boo.Lang.dll (this message is harmless)
+UnloadTime: 0.750375 ms
+System memory in use before: 20.2 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 20.1 MB.
 
-Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 536.
-Total: 5.160765 ms (FindLiveObjects: 0.103733 ms CreateObjectMapping: 0.051866 ms MarkObjects: 0.385355 ms  DeleteObjects: 2.169498 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 579.
+Total: 0.863267 ms (FindLiveObjects: 0.028815 ms CreateObjectMapping: 0.013025 ms MarkObjects: 0.158680 ms  DeleteObjects: 0.062366 ms)
 
-Platform assembly: E:\School stuff\Research Project\Unity\test_Data\Managed\Mono.Data.Sqlite.dll (this message is harmless)
-Platform assembly: E:\School stuff\Research Project\Unity\test_Data\Managed\System.dll (this message is harmless)
-Platform assembly: E:\School stuff\Research Project\Unity\test_Data\Managed\System.Transactions.dll (this message is harmless)
-Platform assembly: E:\School stuff\Research Project\Unity\test_Data\Managed\System.Xml.dll (this message is harmless)
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/sqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/.\sqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/sqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/libsqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/.\libsqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/libsqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/sqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/.\sqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/sqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/libsqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/.\libsqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/libsqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/sqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/.\sqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/sqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/libsqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/.\libsqlite3
-Fallback handler could not load library E:/School stuff/Research Project/Unity/test_Data/Mono/libsqlite3
-DllNotFoundException: sqlite3
-  at (wrapper managed-to-native) Mono.Data.Sqlite.UnsafeNativeMethods:sqlite3_open_v2 (byte[],intptr&,int,intptr)
-  at Mono.Data.Sqlite.SQLite3.Open (System.String strFilename, SQLiteOpenFlagsEnum flags, Int32 maxPoolSize, Boolean usePool) [0x00040] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/Mono.Data.Sqlite/Mono.Data.Sqlite_2.0/SQLite3.cs:119 
-  at Mono.Data.Sqlite.SqliteConnection.Open () [0x0021a] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/Mono.Data.Sqlite/Mono.Data.Sqlite_2.0/SQLiteConnection.cs:876 
-  at dbAccess.OpenDB (System.String p) [0x00022] in E:\School stuff\Research Project\Unity\Assets\Scripts\dbAccess.js:24 
-  at ScriptThatUsesTheDatabase.Start () [0x0000b] in E:\School stuff\Research Project\Unity\Assets\Scripts\ScriptThatUsesTheDatabase.js:23 
+You clicked the third button!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
+ToolBar:OnGUI() (at E:\School stuff\Research Project\Unity\Assets\Scripts\ToolBar.cs:31)
  
-(Filename: E Line: 0)
+(Filename: C Line: 0)
 
-Platform assembly: E:\School stuff\Research Project\Unity\test_Data\Managed\System.Core.dll (this message is harmless)

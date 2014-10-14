@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: 08bb1bd975047f443aa3e82fda786b45
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: '3D View: {3D}'
+    100002: '3D View: {3D} 1'
+    100004: '3D View: {3D} 2'
+    100006: Achitectural_TeamChrome_Tower_Apartments
+    100008: Achitectural_TeamChrome_Tower_Apartments (2) (1)
+    100010: Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+    100012: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart0
+    100014: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart1
+    100016: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart2
+    100018: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart3
+    100020: Achitectural_TeamChrome_Tower_Apartments.rvt
+    100022: Achitectural_TeamChrome_Tower_Apartments_MeshPart0
+    100024: Achitectural_TeamChrome_Tower_Apartments_MeshPart1
+    100026: Achitectural_TeamChrome_Tower_Apartments_MeshPart10
+    100028: Achitectural_TeamChrome_Tower_Apartments_MeshPart11
+    100030: Achitectural_TeamChrome_Tower_Apartments_MeshPart12
+    100032: Achitectural_TeamChrome_Tower_Apartments_MeshPart13
+    100034: Achitectural_TeamChrome_Tower_Apartments_MeshPart2
+    100036: Achitectural_TeamChrome_Tower_Apartments_MeshPart3
+    100038: Achitectural_TeamChrome_Tower_Apartments_MeshPart4
+    100040: Achitectural_TeamChrome_Tower_Apartments_MeshPart5
+    100042: Achitectural_TeamChrome_Tower_Apartments_MeshPart6
+    100044: Achitectural_TeamChrome_Tower_Apartments_MeshPart7
+    100046: Achitectural_TeamChrome_Tower_Apartments_MeshPart8
+    100048: Achitectural_TeamChrome_Tower_Apartments_MeshPart9
+    100050: Assembled Stair Stair [438486]
+    100052: Assembled Stair Stair [441109]
+    100054: Assembled Stair Stair [444076]
+    100056: Assembled Stair Stair [445440]
+    100058: Assembled Stair Stair [445847]
+    100060: Assembled Stair Stair [447370]
+    100062: Compass001
+    100064: Compass002
+    100066: Compass003
+    100068: //RootNode
+    100070: Railing Glass Panel - Bottom Fill [445854]
+    100072: Railing Glass Panel - Bottom Fill [445858]
+    100074: Sky002
+    100076: Sky004
+    100078: Sky006
+    100080: Structural_TeamChrome_Tower_Apartments
+    100082: Structural_TeamChrome_Tower_Apartments.rvt
+    100084: Structural_TeamChrome_Tower_Apartments_MeshPart0
+    100086: Structural_TeamChrome_Tower_Apartments_MeshPart1
+    100088: Structural_TeamChrome_Tower_Apartments_MeshPart2
+    100090: Structural_TeamChrome_Tower_Apartments_MeshPart3
+    100092: Structural_TeamChrome_Tower_Apartments_MeshPart4
+    100094: Structural_TeamChrome_Tower_Apartments_MeshPart5
+    100096: Structural_TeamChrome_Tower_Apartments_MeshPart6
+    100098: Structural_TeamChrome_Tower_Apartments_MeshPart7
+    100100: Sun002
+    100102: Sun004
+    100104: Sun006
+    100106: SunAndSky-002
+    100108: SunAndSky-002 1
+    100110: SunAndSky-002 2
+    100112: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869]
+    100114: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881]
+    400000: '3D View: {3D}'
+    400002: '3D View: {3D} 1'
+    400004: '3D View: {3D} 2'
+    400006: Achitectural_TeamChrome_Tower_Apartments
+    400008: Achitectural_TeamChrome_Tower_Apartments (2) (1)
+    400010: Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+    400012: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart0
+    400014: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart1
+    400016: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart2
+    400018: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart3
+    400020: Achitectural_TeamChrome_Tower_Apartments.rvt
+    400022: Achitectural_TeamChrome_Tower_Apartments_MeshPart0
+    400024: Achitectural_TeamChrome_Tower_Apartments_MeshPart1
+    400026: Achitectural_TeamChrome_Tower_Apartments_MeshPart10
+    400028: Achitectural_TeamChrome_Tower_Apartments_MeshPart11
+    400030: Achitectural_TeamChrome_Tower_Apartments_MeshPart12
+    400032: Achitectural_TeamChrome_Tower_Apartments_MeshPart13
+    400034: Achitectural_TeamChrome_Tower_Apartments_MeshPart2
+    400036: Achitectural_TeamChrome_Tower_Apartments_MeshPart3
+    400038: Achitectural_TeamChrome_Tower_Apartments_MeshPart4
+    400040: Achitectural_TeamChrome_Tower_Apartments_MeshPart5
+    400042: Achitectural_TeamChrome_Tower_Apartments_MeshPart6
+    400044: Achitectural_TeamChrome_Tower_Apartments_MeshPart7
+    400046: Achitectural_TeamChrome_Tower_Apartments_MeshPart8
+    400048: Achitectural_TeamChrome_Tower_Apartments_MeshPart9
+    400050: Assembled Stair Stair [438486]
+    400052: Assembled Stair Stair [441109]
+    400054: Assembled Stair Stair [444076]
+    400056: Assembled Stair Stair [445440]
+    400058: Assembled Stair Stair [445847]
+    400060: Assembled Stair Stair [447370]
+    400062: Compass001
+    400064: Compass002
+    400066: Compass003
+    400068: //RootNode
+    400070: Railing Glass Panel - Bottom Fill [445854]
+    400072: Railing Glass Panel - Bottom Fill [445858]
+    400074: Sky002
+    400076: Sky004
+    400078: Sky006
+    400080: Structural_TeamChrome_Tower_Apartments
+    400082: Structural_TeamChrome_Tower_Apartments.rvt
+    400084: Structural_TeamChrome_Tower_Apartments_MeshPart0
+    400086: Structural_TeamChrome_Tower_Apartments_MeshPart1
+    400088: Structural_TeamChrome_Tower_Apartments_MeshPart2
+    400090: Structural_TeamChrome_Tower_Apartments_MeshPart3
+    400092: Structural_TeamChrome_Tower_Apartments_MeshPart4
+    400094: Structural_TeamChrome_Tower_Apartments_MeshPart5
+    400096: Structural_TeamChrome_Tower_Apartments_MeshPart6
+    400098: Structural_TeamChrome_Tower_Apartments_MeshPart7
+    400100: Sun002
+    400102: Sun004
+    400104: Sun006
+    400106: SunAndSky-002
+    400108: SunAndSky-002 1
+    400110: SunAndSky-002 2
+    400112: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869]
+    400114: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881]
+    2300000: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart0
+    2300002: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart1
+    2300004: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart2
+    2300006: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart3
+    2300008: Achitectural_TeamChrome_Tower_Apartments_MeshPart0
+    2300010: Achitectural_TeamChrome_Tower_Apartments_MeshPart1
+    2300012: Achitectural_TeamChrome_Tower_Apartments_MeshPart10
+    2300014: Achitectural_TeamChrome_Tower_Apartments_MeshPart11
+    2300016: Achitectural_TeamChrome_Tower_Apartments_MeshPart12
+    2300018: Achitectural_TeamChrome_Tower_Apartments_MeshPart13
+    2300020: Achitectural_TeamChrome_Tower_Apartments_MeshPart2
+    2300022: Achitectural_TeamChrome_Tower_Apartments_MeshPart3
+    2300024: Achitectural_TeamChrome_Tower_Apartments_MeshPart4
+    2300026: Achitectural_TeamChrome_Tower_Apartments_MeshPart5
+    2300028: Achitectural_TeamChrome_Tower_Apartments_MeshPart6
+    2300030: Achitectural_TeamChrome_Tower_Apartments_MeshPart7
+    2300032: Achitectural_TeamChrome_Tower_Apartments_MeshPart8
+    2300034: Achitectural_TeamChrome_Tower_Apartments_MeshPart9
+    2300036: Structural_TeamChrome_Tower_Apartments_MeshPart0
+    2300038: Structural_TeamChrome_Tower_Apartments_MeshPart1
+    2300040: Structural_TeamChrome_Tower_Apartments_MeshPart2
+    2300042: Structural_TeamChrome_Tower_Apartments_MeshPart3
+    2300044: Structural_TeamChrome_Tower_Apartments_MeshPart4
+    2300046: Structural_TeamChrome_Tower_Apartments_MeshPart5
+    2300048: Structural_TeamChrome_Tower_Apartments_MeshPart6
+    2300050: Structural_TeamChrome_Tower_Apartments_MeshPart7
+    3300000: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart0
+    3300002: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart1
+    3300004: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart2
+    3300006: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart3
+    3300008: Achitectural_TeamChrome_Tower_Apartments_MeshPart0
+    3300010: Achitectural_TeamChrome_Tower_Apartments_MeshPart1
+    3300012: Achitectural_TeamChrome_Tower_Apartments_MeshPart10
+    3300014: Achitectural_TeamChrome_Tower_Apartments_MeshPart11
+    3300016: Achitectural_TeamChrome_Tower_Apartments_MeshPart12
+    3300018: Achitectural_TeamChrome_Tower_Apartments_MeshPart13
+    3300020: Achitectural_TeamChrome_Tower_Apartments_MeshPart2
+    3300022: Achitectural_TeamChrome_Tower_Apartments_MeshPart3
+    3300024: Achitectural_TeamChrome_Tower_Apartments_MeshPart4
+    3300026: Achitectural_TeamChrome_Tower_Apartments_MeshPart5
+    3300028: Achitectural_TeamChrome_Tower_Apartments_MeshPart6
+    3300030: Achitectural_TeamChrome_Tower_Apartments_MeshPart7
+    3300032: Achitectural_TeamChrome_Tower_Apartments_MeshPart8
+    3300034: Achitectural_TeamChrome_Tower_Apartments_MeshPart9
+    3300036: Structural_TeamChrome_Tower_Apartments_MeshPart0
+    3300038: Structural_TeamChrome_Tower_Apartments_MeshPart1
+    3300040: Structural_TeamChrome_Tower_Apartments_MeshPart2
+    3300042: Structural_TeamChrome_Tower_Apartments_MeshPart3
+    3300044: Structural_TeamChrome_Tower_Apartments_MeshPart4
+    3300046: Structural_TeamChrome_Tower_Apartments_MeshPart5
+    3300048: Structural_TeamChrome_Tower_Apartments_MeshPart6
+    3300050: Structural_TeamChrome_Tower_Apartments_MeshPart7
+    4300000: Achitectural_TeamChrome_Tower_Apartments_MeshPart0
+    4300002: Achitectural_TeamChrome_Tower_Apartments_MeshPart1
+    4300004: Achitectural_TeamChrome_Tower_Apartments_MeshPart2
+    4300006: Achitectural_TeamChrome_Tower_Apartments_MeshPart3
+    4300008: Achitectural_TeamChrome_Tower_Apartments_MeshPart4
+    4300010: Achitectural_TeamChrome_Tower_Apartments_MeshPart5
+    4300012: Achitectural_TeamChrome_Tower_Apartments_MeshPart6
+    4300014: Achitectural_TeamChrome_Tower_Apartments_MeshPart7
+    4300016: Achitectural_TeamChrome_Tower_Apartments_MeshPart8
+    4300018: Achitectural_TeamChrome_Tower_Apartments_MeshPart9
+    4300020: Achitectural_TeamChrome_Tower_Apartments_MeshPart10
+    4300022: Achitectural_TeamChrome_Tower_Apartments_MeshPart11
+    4300024: Achitectural_TeamChrome_Tower_Apartments_MeshPart12
+    4300026: Achitectural_TeamChrome_Tower_Apartments_MeshPart13
+    4300028: Structural_TeamChrome_Tower_Apartments_MeshPart0
+    4300030: Structural_TeamChrome_Tower_Apartments_MeshPart1
+    4300032: Structural_TeamChrome_Tower_Apartments_MeshPart2
+    4300034: Structural_TeamChrome_Tower_Apartments_MeshPart3
+    4300036: Structural_TeamChrome_Tower_Apartments_MeshPart4
+    4300038: Structural_TeamChrome_Tower_Apartments_MeshPart5
+    4300040: Structural_TeamChrome_Tower_Apartments_MeshPart6
+    4300042: Structural_TeamChrome_Tower_Apartments_MeshPart7
+    4300044: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart0
+    4300046: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart1
+    4300048: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart2
+    4300050: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart3
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
