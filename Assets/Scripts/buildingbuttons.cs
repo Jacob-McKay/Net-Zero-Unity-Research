@@ -41,7 +41,7 @@ public class buildingbuttons : MonoBehaviour
 				if (isHighlighted) {
 						//GUI.BeginGroup (new Rect (screenPos.x,Screen.height-Camera.main.WorldToScreenPoint (renderer.bounds.max).y,500,500));
 						if (GUI.Button (new Rect (screenPos.x, Screen.height - Camera.main.WorldToScreenPoint (renderer.bounds.max).y, 100, 30), this.gameObject.name)) {
-								Application.LoadLevel ("MSOE_Apartments"); 
+								Application.LoadLevel ("Building_Viewer"); 
 						}
 						//GUI.EndGroup ();
 				}
