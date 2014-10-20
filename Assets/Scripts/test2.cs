@@ -5,6 +5,7 @@ public class test2 : MonoBehaviour {
 
 	void Start()
 	{
+		//test
 	}
 	void OnGUI()
 	{
