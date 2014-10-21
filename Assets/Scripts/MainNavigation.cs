@@ -44,8 +44,13 @@ public class MainNavigation : MonoBehaviour
             rigidbody.freezeRotation = true;
         }
     }
-    
-    void LateUpdate()
+
+	void Update() {
+		Ray ray = camera.ScreenPointToRay(new Vector3(200, 200, 0));
+		Debug.DrawRay (ray.origin, ray.direction * 10, Color.yellow, 10.0f);
+	}
+	
+	void LateUpdate()
     {
         //change target based on what object is selected with "MSOE" tag via left click
         if (Input.GetMouseButtonDown(0))

@@ -7,7 +7,13 @@ public class buildingbuttons : MonoBehaviour
 		private Color startcolor;
 		//public string ObjectName = "Object";
 		bool  isHighlighted = false;
-		bool  wasClickityClicked = false;
+
+
+		public string displayText;
+		private float sliderValue = 1.0f;
+		private float maxSliderValue = 10.0f;
+
+	public GUIStyle customButton;
 	
 		void  OnMouseEnter ()
 		{
@@ -22,18 +28,20 @@ public class buildingbuttons : MonoBehaviour
 				isHighlighted = false;
 				renderer.material.color = startcolor;
 		}
-	
 
-		void OnMouseDown ()
+		void Update ()
 		{
-				wasClickityClicked = true;
-		}
+				if (Input.GetMouseButtonDown (0))
+						Debug.Log ("Pressed left click.");
+		
+				if (Input.GetMouseButtonDown (1))
+						Debug.Log ("Pressed right click.");
+		
+				if (Input.GetMouseButtonDown (2))
+						Debug.Log ("Pressed middle click.");
 
-		void OnMouseUp ()
-		{
-				wasClickityClicked = false;
 		}
-	
+		
 		void  OnGUI ()
 		{
 				Vector3 screenPos = Camera.main.WorldToScreenPoint (transform.position);
@@ -45,9 +53,33 @@ public class buildingbuttons : MonoBehaviour
 						}
 						//GUI.EndGroup ();
 				}
-				if (wasClickityClicked) {
-						Debug.Log ("Aw Snap, " + this.target + " was clickity clicked!!");
+
+				GUILayout.Button ("I am not inside an Area");
+				GUILayout.BeginArea (new Rect (Screen.width / 2, Screen.height / 2, 300, 300));
+		GUILayout.Button (displayText);
+				GUILayout.EndArea ();
+
+				// Wrap everything in the designated GUI Area
+				GUILayout.BeginArea (new Rect (0, 0, 200, 60));
+		
+				// Begin the singular Horizontal Group
+				GUILayout.BeginHorizontal ();
+		
+				// Place a Button normally
+				if (GUILayout.RepeatButton ("Increase max\nSlider Value")) {
+						maxSliderValue += 3.0f * Time.deltaTime;
 				}
-		}
-	
+		
+				// Arrange two more Controls vertically beside the Button
+				GUILayout.BeginVertical ();
+				GUILayout.Box ("Slider Value: " + Mathf.Round (sliderValue));
+				sliderValue = GUILayout.HorizontalSlider (sliderValue, 0.0f, maxSliderValue);
+		
+				// End the Groups and Area
+				GUILayout.EndVertical ();
+				GUILayout.EndHorizontal ();
+				GUILayout.EndArea ();
+
+		customButton  = GUI.skin.GetStyle ("button");
+	}
 }
