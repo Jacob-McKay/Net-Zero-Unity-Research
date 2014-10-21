@@ -1,0 +1,699 @@
+fileFormatVersion: 2
+guid: 86a6ad0dc3a27b14898d09b11848f848
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox
+    100002: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox.fbx
+    100004: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart0
+    100006: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart1
+    100008: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart2
+    100010: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart3
+    100012: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox
+    100014: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox.fbx
+    100016: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart0
+    100018: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart1
+    100020: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart2
+    100022: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox
+    100024: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox.fbx
+    100026: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox_MeshPart0
+    100028: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox_MeshPart1
+    100030: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox
+    100032: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox.fbx
+    100034: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox_MeshPart0
+    100036: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox_MeshPart1
+    100038: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox
+    100040: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox
+      1
+    100042: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox
+      1_MeshPart0
+    100044: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox
+      1_MeshPart1
+    100046: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox.fbx
+    100048: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox.fbx
+      1
+    100050: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox_MeshPart0
+    100052: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox_MeshPart1
+    100054: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox
+    100056: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox.fbx
+    100058: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart0
+    100060: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart1
+    100062: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart2
+    100064: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level15--LowRoofSectionBox
+    100066: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level15--LowRoofSectionBox.fbx
+    100068: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level16--HighRoofSectionBox
+    100070: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level16--HighRoofSectionBox.fbx
+    100072: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1EastSectionBox
+    100074: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1EastSectionBox.fbx
+    100076: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1WestSectionBox
+    100078: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1WestSectionBox.fbx
+    100080: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2MezzanineSectionBox
+    100082: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2MezzanineSectionBox.fbx
+    100084: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2SectionBox
+    100086: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2SectionBox.fbx
+    100088: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3MezzanineSectionBox
+    100090: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3MezzanineSectionBox.fbx
+    100092: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3SectionBox
+    100094: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3SectionBox.fbx
+    100096: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox
+    100098: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox.fbx
+    100100: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart0
+    100102: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart1
+    100104: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart2
+    100106: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart3
+    100108: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox
+    100110: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox.fbx
+    100112: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart0
+    100114: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart1
+    100116: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart2
+    100118: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart3
+    100120: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox
+    100122: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox.fbx
+    100124: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart0
+    100126: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart1
+    100128: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart2
+    100130: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart3
+    100132: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox
+    100134: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox.fbx
+    100136: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart0
+    100138: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart1
+    100140: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart2
+    100142: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart3
+    100144: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox
+    100146: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox.fbx
+    100148: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart0
+    100150: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart1
+    100152: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart2
+    100154: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart3
+    100156: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox
+    100158: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox.fbx
+    100160: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart0
+    100162: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart1
+    100164: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart2
+    100166: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart3
+    100168: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-T-O-FootingSectionBox
+    100170: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-T-O-FootingSectionBox.fbx
+    100172: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429]'
+    100174: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 1'
+    100176: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 10'
+    100178: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 11'
+    100180: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 12'
+    100182: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 13'
+    100184: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 14'
+    100186: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 15'
+    100188: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 16'
+    100190: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 17'
+    100192: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 2'
+    100194: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 3'
+    100196: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 4'
+    100198: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 5'
+    100200: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 6'
+    100202: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 7'
+    100204: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 8'
+    100206: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 9'
+    100208: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435]'
+    100210: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 1'
+    100212: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 10'
+    100214: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 11'
+    100216: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 12'
+    100218: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 13'
+    100220: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 14'
+    100222: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 15'
+    100224: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 16'
+    100226: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 17'
+    100228: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 2'
+    100230: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 3'
+    100232: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 4'
+    100234: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 5'
+    100236: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 6'
+    100238: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 7'
+    100240: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 8'
+    100242: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 9'
+    100244: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432]'
+    100246: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 1'
+    100248: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 10'
+    100250: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 11'
+    100252: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 12'
+    100254: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 13'
+    100256: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 14'
+    100258: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 15'
+    100260: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 16'
+    100262: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 17'
+    100264: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 18'
+    100266: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 19'
+    100268: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 2'
+    100270: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 20'
+    100272: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 3'
+    100274: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 4'
+    100276: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 5'
+    100278: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 6'
+    100280: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 7'
+    100282: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 8'
+    100284: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 9'
+    100286: Railing Glass Panel - Bottom Fill [445854]
+    100288: Railing Glass Panel - Bottom Fill [445854] 1
+    100290: Railing Glass Panel - Bottom Fill [445854] 2
+    100292: Railing Glass Panel - Bottom Fill [445854] 3
+    100294: Railing Glass Panel - Bottom Fill [445854] 4
+    100296: Railing Glass Panel - Bottom Fill [445854] 5
+    100298: Railing Glass Panel - Bottom Fill [445854] 6
+    100300: Railing Glass Panel - Bottom Fill [445854] 7
+    100302: Railing Glass Panel - Bottom Fill [445854] 8
+    100304: Railing Glass Panel - Bottom Fill [445858]
+    100306: Railing Glass Panel - Bottom Fill [445858] 1
+    100308: Railing Glass Panel - Bottom Fill [445858] 2
+    100310: Railing Glass Panel - Bottom Fill [445858] 3
+    100312: Railing Glass Panel - Bottom Fill [445858] 4
+    100314: Railing Glass Panel - Bottom Fill [445858] 5
+    100316: Railing Glass Panel - Bottom Fill [445858] 6
+    100318: Railing Glass Panel - Bottom Fill [445858] 7
+    100320: Railing Glass Panel - Bottom Fill [445858] 8
+    100322: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869]
+    100324: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 1
+    100326: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 2
+    100328: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 3
+    100330: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 4
+    100332: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 5
+    100334: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 6
+    100336: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 7
+    100338: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 8
+    100340: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881]
+    100342: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 1
+    100344: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 2
+    100346: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 3
+    100348: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 4
+    100350: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 5
+    100352: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 6
+    100354: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 7
+    100356: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 8
+    100358: //RootNode
+    400000: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox
+    400002: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox.fbx
+    400004: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart0
+    400006: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart1
+    400008: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart2
+    400010: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart3
+    400012: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox
+    400014: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox.fbx
+    400016: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart0
+    400018: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart1
+    400020: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart2
+    400022: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox
+    400024: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox.fbx
+    400026: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox_MeshPart0
+    400028: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox_MeshPart1
+    400030: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox
+    400032: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox.fbx
+    400034: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox_MeshPart0
+    400036: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox_MeshPart1
+    400038: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox
+    400040: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox
+      1
+    400042: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox
+      1_MeshPart0
+    400044: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox
+      1_MeshPart1
+    400046: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox.fbx
+    400048: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox.fbx
+      1
+    400050: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox_MeshPart0
+    400052: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox_MeshPart1
+    400054: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox
+    400056: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox.fbx
+    400058: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart0
+    400060: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart1
+    400062: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart2
+    400064: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level15--LowRoofSectionBox
+    400066: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level15--LowRoofSectionBox.fbx
+    400068: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level16--HighRoofSectionBox
+    400070: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level16--HighRoofSectionBox.fbx
+    400072: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1EastSectionBox
+    400074: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1EastSectionBox.fbx
+    400076: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1WestSectionBox
+    400078: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1WestSectionBox.fbx
+    400080: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2MezzanineSectionBox
+    400082: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2MezzanineSectionBox.fbx
+    400084: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2SectionBox
+    400086: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2SectionBox.fbx
+    400088: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3MezzanineSectionBox
+    400090: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3MezzanineSectionBox.fbx
+    400092: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3SectionBox
+    400094: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3SectionBox.fbx
+    400096: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox
+    400098: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox.fbx
+    400100: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart0
+    400102: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart1
+    400104: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart2
+    400106: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart3
+    400108: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox
+    400110: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox.fbx
+    400112: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart0
+    400114: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart1
+    400116: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart2
+    400118: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart3
+    400120: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox
+    400122: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox.fbx
+    400124: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart0
+    400126: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart1
+    400128: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart2
+    400130: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart3
+    400132: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox
+    400134: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox.fbx
+    400136: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart0
+    400138: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart1
+    400140: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart2
+    400142: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart3
+    400144: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox
+    400146: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox.fbx
+    400148: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart0
+    400150: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart1
+    400152: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart2
+    400154: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart3
+    400156: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox
+    400158: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox.fbx
+    400160: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart0
+    400162: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart1
+    400164: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart2
+    400166: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart3
+    400168: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-T-O-FootingSectionBox
+    400170: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-T-O-FootingSectionBox.fbx
+    400172: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429]'
+    400174: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 1'
+    400176: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 10'
+    400178: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 11'
+    400180: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 12'
+    400182: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 13'
+    400184: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 14'
+    400186: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 15'
+    400188: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 16'
+    400190: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 17'
+    400192: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 2'
+    400194: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 3'
+    400196: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 4'
+    400198: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 5'
+    400200: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 6'
+    400202: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 7'
+    400204: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 8'
+    400206: 'Linked Revit Model Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+      : 9 : location <Not Shared> [552429] 9'
+    400208: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435]'
+    400210: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 1'
+    400212: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 10'
+    400214: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 11'
+    400216: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 12'
+    400218: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 13'
+    400220: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 14'
+    400222: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 15'
+    400224: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 16'
+    400226: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 17'
+    400228: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 2'
+    400230: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 3'
+    400232: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 4'
+    400234: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 5'
+    400236: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 6'
+    400238: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 7'
+    400240: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 8'
+    400242: 'Linked Revit Model Mechanical_TeamChrome_Tower_Apartments.rvt : 11 :
+      location <Not Shared> [552435] 9'
+    400244: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432]'
+    400246: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 1'
+    400248: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 10'
+    400250: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 11'
+    400252: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 12'
+    400254: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 13'
+    400256: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 14'
+    400258: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 15'
+    400260: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 16'
+    400262: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 17'
+    400264: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 18'
+    400266: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 19'
+    400268: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 2'
+    400270: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 20'
+    400272: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 3'
+    400274: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 4'
+    400276: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 5'
+    400278: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 6'
+    400280: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 7'
+    400282: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 8'
+    400284: 'Linked Revit Model Structural_TeamChrome_Tower_Apartments.rvt : 10 :
+      location <Not Shared> [552432] 9'
+    400286: Railing Glass Panel - Bottom Fill [445854]
+    400288: Railing Glass Panel - Bottom Fill [445854] 1
+    400290: Railing Glass Panel - Bottom Fill [445854] 2
+    400292: Railing Glass Panel - Bottom Fill [445854] 3
+    400294: Railing Glass Panel - Bottom Fill [445854] 4
+    400296: Railing Glass Panel - Bottom Fill [445854] 5
+    400298: Railing Glass Panel - Bottom Fill [445854] 6
+    400300: Railing Glass Panel - Bottom Fill [445854] 7
+    400302: Railing Glass Panel - Bottom Fill [445854] 8
+    400304: Railing Glass Panel - Bottom Fill [445858]
+    400306: Railing Glass Panel - Bottom Fill [445858] 1
+    400308: Railing Glass Panel - Bottom Fill [445858] 2
+    400310: Railing Glass Panel - Bottom Fill [445858] 3
+    400312: Railing Glass Panel - Bottom Fill [445858] 4
+    400314: Railing Glass Panel - Bottom Fill [445858] 5
+    400316: Railing Glass Panel - Bottom Fill [445858] 6
+    400318: Railing Glass Panel - Bottom Fill [445858] 7
+    400320: Railing Glass Panel - Bottom Fill [445858] 8
+    400322: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869]
+    400324: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 1
+    400326: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 2
+    400328: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 3
+    400330: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 4
+    400332: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 5
+    400334: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 6
+    400336: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 7
+    400338: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869] 8
+    400340: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881]
+    400342: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 1
+    400344: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 2
+    400346: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 3
+    400348: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 4
+    400350: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 5
+    400352: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 6
+    400354: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 7
+    400356: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881] 8
+    400358: //RootNode
+    2300000: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart0
+    2300002: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart1
+    2300004: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart2
+    2300006: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart3
+    2300008: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart0
+    2300010: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart1
+    2300012: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart2
+    2300014: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox_MeshPart0
+    2300016: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox_MeshPart1
+    2300018: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox_MeshPart0
+    2300020: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox_MeshPart1
+    2300022: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox
+      1_MeshPart0
+    2300024: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox
+      1_MeshPart1
+    2300026: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox_MeshPart0
+    2300028: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox_MeshPart1
+    2300030: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart0
+    2300032: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart1
+    2300034: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart2
+    2300036: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level15--LowRoofSectionBox
+    2300038: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level16--HighRoofSectionBox
+    2300040: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1EastSectionBox
+    2300042: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1WestSectionBox
+    2300044: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2MezzanineSectionBox
+    2300046: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2SectionBox
+    2300048: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3MezzanineSectionBox
+    2300050: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3SectionBox
+    2300052: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart0
+    2300054: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart1
+    2300056: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart2
+    2300058: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart3
+    2300060: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart0
+    2300062: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart1
+    2300064: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart2
+    2300066: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart3
+    2300068: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart0
+    2300070: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart1
+    2300072: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart2
+    2300074: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart3
+    2300076: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart0
+    2300078: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart1
+    2300080: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart2
+    2300082: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart3
+    2300084: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart0
+    2300086: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart1
+    2300088: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart2
+    2300090: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart3
+    2300092: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart0
+    2300094: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart1
+    2300096: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart2
+    2300098: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart3
+    2300100: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-T-O-FootingSectionBox
+    3300000: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart0
+    3300002: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart1
+    3300004: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart2
+    3300006: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart3
+    3300008: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart0
+    3300010: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart1
+    3300012: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart2
+    3300014: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox_MeshPart0
+    3300016: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox_MeshPart1
+    3300018: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox_MeshPart0
+    3300020: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox_MeshPart1
+    3300022: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox
+      1_MeshPart0
+    3300024: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox
+      1_MeshPart1
+    3300026: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox_MeshPart0
+    3300028: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox_MeshPart1
+    3300030: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart0
+    3300032: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart1
+    3300034: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart2
+    3300036: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level15--LowRoofSectionBox
+    3300038: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level16--HighRoofSectionBox
+    3300040: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1EastSectionBox
+    3300042: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1WestSectionBox
+    3300044: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2MezzanineSectionBox
+    3300046: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2SectionBox
+    3300048: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3MezzanineSectionBox
+    3300050: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3SectionBox
+    3300052: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart0
+    3300054: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart1
+    3300056: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart2
+    3300058: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart3
+    3300060: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart0
+    3300062: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart1
+    3300064: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart2
+    3300066: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart3
+    3300068: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart0
+    3300070: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart1
+    3300072: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart2
+    3300074: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart3
+    3300076: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart0
+    3300078: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart1
+    3300080: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart2
+    3300082: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart3
+    3300084: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart0
+    3300086: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart1
+    3300088: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart2
+    3300090: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart3
+    3300092: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart0
+    3300094: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart1
+    3300096: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart2
+    3300098: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart3
+    3300100: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-T-O-FootingSectionBox
+    4300000: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart0
+    4300002: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart1
+    4300004: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart2
+    4300006: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-B-O-FootingSectionBox_MeshPart3
+    4300008: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1EastSectionBox
+    4300010: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level1WestSectionBox
+    4300012: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2MezzanineSectionBox
+    4300014: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level2SectionBox
+    4300016: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3MezzanineSectionBox
+    4300018: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level3SectionBox
+    4300020: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart0
+    4300022: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart1
+    4300024: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart2
+    4300026: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level4SectionBox_MeshPart3
+    4300028: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart0
+    4300030: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart1
+    4300032: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart2
+    4300034: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level5SectionBox_MeshPart3
+    4300036: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart0
+    4300038: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart1
+    4300040: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart2
+    4300042: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level6SectionBox_MeshPart3
+    4300044: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart0
+    4300046: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart1
+    4300048: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart2
+    4300050: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level7SectionBox_MeshPart3
+    4300052: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart0
+    4300054: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart1
+    4300056: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart2
+    4300058: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level8SectionBox_MeshPart3
+    4300060: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart0
+    4300062: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart1
+    4300064: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart2
+    4300066: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level9SectionBox_MeshPart3
+    4300068: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart0
+    4300070: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart1
+    4300072: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level10SectionBox_MeshPart2
+    4300074: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox_MeshPart0
+    4300076: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level11SectionBox_MeshPart1
+    4300078: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox_MeshPart0
+    4300080: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level12SectionBox_MeshPart1
+    4300082: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox_MeshPart0
+    4300084: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox_MeshPart1
+    4300086: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox_MeshPart0
+    4300088: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level13SectionBox_MeshPart1
+    4300090: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart0
+    4300092: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart1
+    4300094: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level14SectionBox_MeshPart2
+    4300096: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level15--LowRoofSectionBox
+    4300098: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-Level16--HighRoofSectionBox
+    4300100: Achitectural_TeamChrome_Tower_Apartments_combinedsliced-3DView-T-O-FootingSectionBox
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
