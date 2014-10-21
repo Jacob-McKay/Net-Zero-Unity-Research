@@ -1,0 +1,2841 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: .25
+    backfaceThreshold: 100
+--- !u!104 &2
+RenderSettings:
+  m_Fog: 0
+  m_FogColor: {r: .5, g: .5, b: .5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .00999999978
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientLight: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: a2126534b3a11b34e977105bd9e3cc03, type: 2}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 0}
+  m_ObjectHideFlags: 0
+--- !u!127 &3
+LevelGameManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  m_LightProbes: {fileID: 0}
+  m_Lightmaps: []
+  m_LightmapsMode: 1
+  m_BakedColorSpace: 0
+  m_UseDualLightmapsInForward: 0
+  m_LightmapEditorSettings:
+    m_Resolution: 50
+    m_LastUsedResolution: 0
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_BounceBoost: 1
+    m_BounceIntensity: 1
+    m_SkyLightColor: {r: .860000014, g: .930000007, b: 1, a: 1}
+    m_SkyLightIntensity: 0
+    m_Quality: 0
+    m_Bounces: 1
+    m_FinalGatherRays: 1000
+    m_FinalGatherContrastThreshold: .0500000007
+    m_FinalGatherGradientThreshold: 0
+    m_FinalGatherInterpolationPoints: 15
+    m_AOAmount: 0
+    m_AOMaxDistance: .100000001
+    m_AOContrast: 1
+    m_LODSurfaceMappingDistance: 1
+    m_Padding: 0
+    m_TextureCompression: 0
+    m_LockAtlas: 0
+--- !u!196 &5
+NavMeshSettings:
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    widthInaccuracy: 16.666666
+    heightInaccuracy: 10
+  m_NavMesh: {fileID: 0}
+--- !u!1 &28967431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 28967432}
+  - 33: {fileID: 28967434}
+  - 23: {fileID: 28967433}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &28967432
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 28967431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 1
+--- !u!23 &28967433
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300010, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 28967431}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: e228cd196520b0844939a65b57b2e697, type: 2}
+  - {fileID: 2100000, guid: 4704ea3e98f097548845e2449030efb2, type: 2}
+  - {fileID: 2100000, guid: b4979dc381b64ba4c87a565f82686d92, type: 2}
+  - {fileID: 2100000, guid: 1051da9b6b474204cb30bee3f2648fc9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &28967434
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300010, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 28967431}
+  m_Mesh: {fileID: 4300002, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &94189099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 94189100}
+  - 33: {fileID: 94189102}
+  - 23: {fileID: 94189101}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &94189100
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 94189099}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 7
+--- !u!23 &94189101
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300030, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 94189099}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 3569f1dfba81396469056d1e82f8d37d, type: 2}
+  - {fileID: 2100000, guid: 47be52953fa0bc2438ddb3efdc569539, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &94189102
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300030, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 94189099}
+  m_Mesh: {fileID: 4300014, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &105226496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 105226497}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments (2) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &105226497
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 105226496}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children:
+  - {fileID: 264563891}
+  - {fileID: 1294079082}
+  - {fileID: 1664554612}
+  - {fileID: 522054195}
+  m_Father: {fileID: 662817730}
+  m_RootOrder: 1
+--- !u!1 &157963229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100092, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 157963230}
+  - 33: {fileID: 157963232}
+  - 23: {fileID: 157963231}
+  m_Layer: 0
+  m_Name: Structural_TeamChrome_Tower_Apartments_MeshPart4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &157963230
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400092, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 157963229}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579859548}
+  m_RootOrder: 4
+--- !u!23 &157963231
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300044, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 157963229}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: e4bcc0f458749c348bd4cc84c8e4b5fd, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &157963232
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300044, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 157963229}
+  m_Mesh: {fileID: 4300036, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &164179074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 164179075}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments.rvt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &164179075
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 164179074}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1266984146}
+  - {fileID: 1679492818}
+  - {fileID: 1513461173}
+  - {fileID: 1377940851}
+  - {fileID: 2135555469}
+  - {fileID: 1229215820}
+  - {fileID: 626727999}
+  - {fileID: 1856057670}
+  - {fileID: 1543016933}
+  - {fileID: 1326692275}
+  - {fileID: 2065692557}
+  - {fileID: 1477191436}
+  - {fileID: 1640806236}
+  m_Father: {fileID: 1108096908}
+  m_RootOrder: 1
+--- !u!1 &228844692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 228844693}
+  m_Layer: 0
+  m_Name: '3D View: {3D}'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &228844693
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 228844692}
+  m_LocalRotation: {x: -.0600029863, y: .704556406, z: .540625155, w: -.455768019}
+  m_LocalPosition: {x: -13.1829281, y: -16.3485126, z: 25.8978977}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 662817730}
+  m_RootOrder: 0
+--- !u!1 &264563890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 264563891}
+  - 33: {fileID: 264563893}
+  - 23: {fileID: 264563892}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &264563891
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 264563890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 105226497}
+  m_RootOrder: 0
+--- !u!23 &264563892
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 264563890}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 4704ea3e98f097548845e2449030efb2, type: 2}
+  - {fileID: 2100000, guid: 47be52953fa0bc2438ddb3efdc569539, type: 2}
+  - {fileID: 2100000, guid: b85f90457732659458c9b06e2bbbfae4, type: 2}
+  - {fileID: 2100000, guid: bab79fb43bbbeb24992eb2c07f6b0eff, type: 2}
+  - {fileID: 2100000, guid: 3ccab7e66e725be41800d55ef3a18493, type: 2}
+  - {fileID: 2100000, guid: cb78407e9eaa435459843e34d20ef9b8, type: 2}
+  - {fileID: 2100000, guid: de9021de729259c408f4a725989e1a4a, type: 2}
+  - {fileID: 2100000, guid: cf0e658b867e2c14ea35017c8f85dd37, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &264563893
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 264563890}
+  m_Mesh: {fileID: 4300044, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &347163744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100040, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 347163745}
+  - 33: {fileID: 347163747}
+  - 23: {fileID: 347163746}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &347163745
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400040, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 347163744}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 5
+--- !u!23 &347163746
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300026, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 347163744}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: b85f90457732659458c9b06e2bbbfae4, type: 2}
+  - {fileID: 2100000, guid: 47be52953fa0bc2438ddb3efdc569539, type: 2}
+  - {fileID: 2100000, guid: 3569f1dfba81396469056d1e82f8d37d, type: 2}
+  - {fileID: 2100000, guid: 3ccab7e66e725be41800d55ef3a18493, type: 2}
+  - {fileID: 2100000, guid: 4704ea3e98f097548845e2449030efb2, type: 2}
+  - {fileID: 2100000, guid: bab79fb43bbbeb24992eb2c07f6b0eff, type: 2}
+  - {fileID: 2100000, guid: e228cd196520b0844939a65b57b2e697, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &347163747
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300026, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 347163744}
+  m_Mesh: {fileID: 4300010, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &369137689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100046, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 369137690}
+  - 33: {fileID: 369137692}
+  - 23: {fileID: 369137691}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &369137690
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400046, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 369137689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 8
+--- !u!23 &369137691
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300032, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 369137689}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 3569f1dfba81396469056d1e82f8d37d, type: 2}
+  - {fileID: 2100000, guid: 47be52953fa0bc2438ddb3efdc569539, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &369137692
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300032, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 369137689}
+  m_Mesh: {fileID: 4300016, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &500796263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100082, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 500796264}
+  m_Layer: 0
+  m_Name: Structural_TeamChrome_Tower_Apartments.rvt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &500796264
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400082, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 500796263}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2083422296}
+  - {fileID: 1432829662}
+  - {fileID: 579859548}
+  m_Father: {fileID: 1108096908}
+  m_RootOrder: 2
+--- !u!1 &513692501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100106, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 513692502}
+  m_Layer: 0
+  m_Name: SunAndSky-002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &513692502
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400106, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 513692501}
+  m_LocalRotation: {x: -.147678286, y: -.272961944, z: -.0424467027, w: .949674249}
+  m_LocalPosition: {x: -29.5692673, y: 17.7484207, z: 47.1883965}
+  m_LocalScale: {x: .99999994, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 1559723789}
+  - {fileID: 2077051042}
+  m_Father: {fileID: 2018760567}
+  m_RootOrder: 0
+--- !u!1 &522054194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 522054195}
+  - 33: {fileID: 522054197}
+  - 23: {fileID: 522054196}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &522054195
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 522054194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 105226497}
+  m_RootOrder: 3
+--- !u!23 &522054196
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 522054194}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 3569f1dfba81396469056d1e82f8d37d, type: 2}
+  - {fileID: 2100000, guid: 47be52953fa0bc2438ddb3efdc569539, type: 2}
+  - {fileID: 2100000, guid: b85f90457732659458c9b06e2bbbfae4, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &522054197
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 522054194}
+  m_Mesh: {fileID: 4300050, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &555667020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100034, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 555667021}
+  - 33: {fileID: 555667023}
+  - 23: {fileID: 555667022}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &555667021
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400034, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 555667020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 2
+--- !u!23 &555667022
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300020, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 555667020}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: b4979dc381b64ba4c87a565f82686d92, type: 2}
+  - {fileID: 2100000, guid: 1051da9b6b474204cb30bee3f2648fc9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &555667023
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300020, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 555667020}
+  m_Mesh: {fileID: 4300004, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &579859547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100080, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 579859548}
+  m_Layer: 0
+  m_Name: Structural_TeamChrome_Tower_Apartments
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &579859548
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400080, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 579859547}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children:
+  - {fileID: 731204913}
+  - {fileID: 1528217899}
+  - {fileID: 1769346973}
+  - {fileID: 1474364226}
+  - {fileID: 157963230}
+  - {fileID: 1007709677}
+  - {fileID: 2026637822}
+  - {fileID: 718062338}
+  m_Father: {fileID: 500796264}
+  m_RootOrder: 2
+--- !u!1 &626727998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100058, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 626727999}
+  m_Layer: 0
+  m_Name: Assembled Stair Stair [445847]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &626727999
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400058, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 626727998}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children: []
+  m_Father: {fileID: 164179075}
+  m_RootOrder: 6
+--- !u!1 &651629917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100042, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 651629918}
+  - 33: {fileID: 651629920}
+  - 23: {fileID: 651629919}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &651629918
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400042, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 651629917}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 6
+--- !u!23 &651629919
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300028, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 651629917}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 3569f1dfba81396469056d1e82f8d37d, type: 2}
+  - {fileID: 2100000, guid: 47be52953fa0bc2438ddb3efdc569539, type: 2}
+  - {fileID: 2100000, guid: 4704ea3e98f097548845e2449030efb2, type: 2}
+  - {fileID: 2100000, guid: e228cd196520b0844939a65b57b2e697, type: 2}
+  - {fileID: 2100000, guid: bab79fb43bbbeb24992eb2c07f6b0eff, type: 2}
+  - {fileID: 2100000, guid: b85f90457732659458c9b06e2bbbfae4, type: 2}
+  - {fileID: 2100000, guid: eb047800d7a7dfc4f8039a587314cfff, type: 2}
+  - {fileID: 2100000, guid: b776392e54d09aa429c10c0579dfb8e0, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &651629920
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300028, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 651629917}
+  m_Mesh: {fileID: 4300012, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &662817729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 662817730}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments (2) (1).rvt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &662817730
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 662817729}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 228844693}
+  - {fileID: 105226497}
+  - {fileID: 2018760567}
+  m_Father: {fileID: 1108096908}
+  m_RootOrder: 0
+--- !u!1 &718062337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100098, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 718062338}
+  - 33: {fileID: 718062340}
+  - 23: {fileID: 718062339}
+  m_Layer: 0
+  m_Name: Structural_TeamChrome_Tower_Apartments_MeshPart7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &718062338
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400098, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 718062337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579859548}
+  m_RootOrder: 7
+--- !u!23 &718062339
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300050, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 718062337}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 2622cfd2ed6e18b47856e0333bb72036, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &718062340
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300050, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 718062337}
+  m_Mesh: {fileID: 4300042, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &731204912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100084, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 731204913}
+  - 33: {fileID: 731204915}
+  - 23: {fileID: 731204914}
+  m_Layer: 0
+  m_Name: Structural_TeamChrome_Tower_Apartments_MeshPart0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &731204913
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400084, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 731204912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579859548}
+  m_RootOrder: 0
+--- !u!23 &731204914
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300036, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 731204912}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: e4bcc0f458749c348bd4cc84c8e4b5fd, type: 2}
+  - {fileID: 2100000, guid: 4f91b021801801d4bb189417cfb0551d, type: 2}
+  - {fileID: 2100000, guid: d893191618470134f8e521edc198c831, type: 2}
+  - {fileID: 2100000, guid: 2622cfd2ed6e18b47856e0333bb72036, type: 2}
+  - {fileID: 2100000, guid: 3569f1dfba81396469056d1e82f8d37d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &731204915
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300036, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 731204912}
+  m_Mesh: {fileID: 4300028, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &817310559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100074, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 817310560}
+  m_Layer: 0
+  m_Name: Sky002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &817310560
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400074, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 817310559}
+  m_LocalRotation: {x: .707106829, y: -5.26835642e-09, z: -5.26835642e-09, w: .707106829}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2077730315}
+  m_RootOrder: 0
+--- !u!1 &876794455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 876794456}
+  - 33: {fileID: 876794458}
+  - 23: {fileID: 876794457}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &876794456
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 876794455}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 0
+--- !u!23 &876794457
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 876794455}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 4704ea3e98f097548845e2449030efb2, type: 2}
+  - {fileID: 2100000, guid: b928a5d01f8ece34ca070619beab22ad, type: 2}
+  - {fileID: 2100000, guid: e228cd196520b0844939a65b57b2e697, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &876794458
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 876794455}
+  m_Mesh: {fileID: 4300000, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &891556848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100076, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 891556849}
+  m_Layer: 0
+  m_Name: Sky004
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &891556849
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400076, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 891556848}
+  m_LocalRotation: {x: .707106829, y: -5.26835686e-09, z: -5.26835686e-09, w: .707106829}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2080892189}
+  m_RootOrder: 0
+--- !u!1 &1002433048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100028, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1002433049}
+  - 33: {fileID: 1002433051}
+  - 23: {fileID: 1002433050}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1002433049
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400028, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1002433048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 11
+--- !u!23 &1002433050
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300014, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1002433048}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 3569f1dfba81396469056d1e82f8d37d, type: 2}
+  - {fileID: 2100000, guid: b4979dc381b64ba4c87a565f82686d92, type: 2}
+  - {fileID: 2100000, guid: 1051da9b6b474204cb30bee3f2648fc9, type: 2}
+  - {fileID: 2100000, guid: 47be52953fa0bc2438ddb3efdc569539, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1002433051
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300014, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1002433048}
+  m_Mesh: {fileID: 4300022, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &1007709676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100094, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1007709677}
+  - 33: {fileID: 1007709679}
+  - 23: {fileID: 1007709678}
+  m_Layer: 0
+  m_Name: Structural_TeamChrome_Tower_Apartments_MeshPart5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1007709677
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400094, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1007709676}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579859548}
+  m_RootOrder: 5
+--- !u!23 &1007709678
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300046, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1007709676}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: e4bcc0f458749c348bd4cc84c8e4b5fd, type: 2}
+  - {fileID: 2100000, guid: 2622cfd2ed6e18b47856e0333bb72036, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1007709679
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300046, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1007709676}
+  m_Mesh: {fileID: 4300038, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &1010504163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100026, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1010504164}
+  - 33: {fileID: 1010504166}
+  - 23: {fileID: 1010504165}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1010504164
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400026, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1010504163}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 10
+--- !u!23 &1010504165
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300012, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1010504163}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 3569f1dfba81396469056d1e82f8d37d, type: 2}
+  - {fileID: 2100000, guid: 47be52953fa0bc2438ddb3efdc569539, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1010504166
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300012, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1010504163}
+  m_Mesh: {fileID: 4300020, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &1108096907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100068, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1108096908}
+  - 95: {fileID: 1108096909}
+  m_Layer: 0
+  m_Name: MSOE_Apartments2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1108096908
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400068, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1108096907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 662817730}
+  - {fileID: 164179075}
+  - {fileID: 500796264}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!95 &1108096909
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1108096907}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1229215819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100056, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1229215820}
+  m_Layer: 0
+  m_Name: Assembled Stair Stair [445440]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1229215820
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400056, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1229215819}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children: []
+  m_Father: {fileID: 164179075}
+  m_RootOrder: 5
+--- !u!1 &1257458724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100032, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1257458725}
+  - 33: {fileID: 1257458727}
+  - 23: {fileID: 1257458726}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1257458725
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1257458724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 13
+--- !u!23 &1257458726
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300018, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1257458724}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: b85f90457732659458c9b06e2bbbfae4, type: 2}
+  - {fileID: 2100000, guid: 47be52953fa0bc2438ddb3efdc569539, type: 2}
+  - {fileID: 2100000, guid: 4704ea3e98f097548845e2449030efb2, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1257458727
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300018, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1257458724}
+  m_Mesh: {fileID: 4300026, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &1266984145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1266984146}
+  m_Layer: 0
+  m_Name: '3D View: {3D} 1'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1266984146
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1266984145}
+  m_LocalRotation: {x: -.0600029863, y: .704556406, z: .540625155, w: -.455768019}
+  m_LocalPosition: {x: -16.6051922, y: -29.5255966, z: 30.6613178}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 164179075}
+  m_RootOrder: 0
+--- !u!1 &1284686477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100102, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1284686478}
+  m_Layer: 0
+  m_Name: Sun004
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1284686478
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400102, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1284686477}
+  m_LocalRotation: {x: .707106829, y: -5.26835686e-09, z: -5.26835686e-09, w: .707106829}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2080892189}
+  m_RootOrder: 1
+--- !u!1 &1294079081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1294079082}
+  - 33: {fileID: 1294079084}
+  - 23: {fileID: 1294079083}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1294079082
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1294079081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 105226497}
+  m_RootOrder: 1
+--- !u!23 &1294079083
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1294079081}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: b85f90457732659458c9b06e2bbbfae4, type: 2}
+  - {fileID: 2100000, guid: 47be52953fa0bc2438ddb3efdc569539, type: 2}
+  - {fileID: 2100000, guid: 3ccab7e66e725be41800d55ef3a18493, type: 2}
+  - {fileID: 2100000, guid: 3569f1dfba81396469056d1e82f8d37d, type: 2}
+  - {fileID: 2100000, guid: bab79fb43bbbeb24992eb2c07f6b0eff, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1294079084
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1294079081}
+  m_Mesh: {fileID: 4300046, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &1326692274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100070, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1326692275}
+  m_Layer: 0
+  m_Name: Railing Glass Panel - Bottom Fill [445854]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1326692275
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400070, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1326692274}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children: []
+  m_Father: {fileID: 164179075}
+  m_RootOrder: 9
+--- !u!1 &1365188732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100030, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1365188733}
+  - 33: {fileID: 1365188735}
+  - 23: {fileID: 1365188734}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1365188733
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400030, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1365188732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 12
+--- !u!23 &1365188734
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300016, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1365188732}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 3569f1dfba81396469056d1e82f8d37d, type: 2}
+  - {fileID: 2100000, guid: 47be52953fa0bc2438ddb3efdc569539, type: 2}
+  - {fileID: 2100000, guid: 4704ea3e98f097548845e2449030efb2, type: 2}
+  - {fileID: 2100000, guid: eb047800d7a7dfc4f8039a587314cfff, type: 2}
+  - {fileID: 2100000, guid: b776392e54d09aa429c10c0579dfb8e0, type: 2}
+  - {fileID: 2100000, guid: b4979dc381b64ba4c87a565f82686d92, type: 2}
+  - {fileID: 2100000, guid: 1051da9b6b474204cb30bee3f2648fc9, type: 2}
+  - {fileID: 2100000, guid: bab79fb43bbbeb24992eb2c07f6b0eff, type: 2}
+  - {fileID: 2100000, guid: b85f90457732659458c9b06e2bbbfae4, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1365188735
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300016, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1365188732}
+  m_Mesh: {fileID: 4300024, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &1377940850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100052, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1377940851}
+  m_Layer: 0
+  m_Name: Assembled Stair Stair [441109]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1377940851
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400052, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1377940850}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children: []
+  m_Father: {fileID: 164179075}
+  m_RootOrder: 3
+--- !u!1 &1390498712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100036, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1390498715}
+  - 33: {fileID: 1390498714}
+  - 23: {fileID: 1390498713}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1390498713
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300022, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1390498712}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 1051da9b6b474204cb30bee3f2648fc9, type: 2}
+  - {fileID: 2100000, guid: b4979dc381b64ba4c87a565f82686d92, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1390498714
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300022, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1390498712}
+  m_Mesh: {fileID: 4300006, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!4 &1390498715
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400036, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1390498712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 3
+--- !u!1001 &1390691124
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400068, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400068, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400068, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400068, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400068, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400068, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400068, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400068, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_RootGameObject: {fileID: 1108096907}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &1412886786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1412886788}
+  - 108: {fileID: 1412886787}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1412886787
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1412886786}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: .5
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_Strength: 1
+    m_Bias: .0500000007
+    m_Softness: 4
+    m_SoftnessFade: 1
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_ActuallyLightmapped: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_ShadowSamples: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_IndirectIntensity: 1
+  m_AreaSize: {x: 1, y: 1}
+--- !u!4 &1412886788
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1412886786}
+  m_LocalRotation: {x: .408217937, y: -.234569728, z: .109381661, w: .875426114}
+  m_LocalPosition: {x: 24.8661785, y: 7.76145744, z: 11.5135441}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+--- !u!1 &1432829661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100064, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1432829662}
+  m_Layer: 0
+  m_Name: Compass002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1432829662
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400064, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1432829661}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2080892189}
+  m_Father: {fileID: 500796264}
+  m_RootOrder: 1
+--- !u!1 &1474364225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100090, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1474364226}
+  - 33: {fileID: 1474364228}
+  - 23: {fileID: 1474364227}
+  m_Layer: 0
+  m_Name: Structural_TeamChrome_Tower_Apartments_MeshPart3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1474364226
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400090, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1474364225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579859548}
+  m_RootOrder: 3
+--- !u!23 &1474364227
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300042, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1474364225}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: e4bcc0f458749c348bd4cc84c8e4b5fd, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1474364228
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300042, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1474364225}
+  m_Mesh: {fileID: 4300034, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &1477191435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100112, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1477191436}
+  m_Layer: 0
+  m_Name: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445869]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1477191436
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400112, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1477191435}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children: []
+  m_Father: {fileID: 164179075}
+  m_RootOrder: 11
+--- !u!1 &1510320985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100100, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1510320986}
+  m_Layer: 0
+  m_Name: Sun002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1510320986
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400100, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1510320985}
+  m_LocalRotation: {x: .707106829, y: -5.26835642e-09, z: -5.26835642e-09, w: .707106829}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2077730315}
+  m_RootOrder: 1
+--- !u!1 &1513461172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100050, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1513461173}
+  m_Layer: 0
+  m_Name: Assembled Stair Stair [438486]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1513461173
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400050, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1513461172}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children: []
+  m_Father: {fileID: 164179075}
+  m_RootOrder: 2
+--- !u!1 &1528217898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100086, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1528217899}
+  - 33: {fileID: 1528217901}
+  - 23: {fileID: 1528217900}
+  m_Layer: 0
+  m_Name: Structural_TeamChrome_Tower_Apartments_MeshPart1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1528217899
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400086, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1528217898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579859548}
+  m_RootOrder: 1
+--- !u!23 &1528217900
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300038, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1528217898}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: e4bcc0f458749c348bd4cc84c8e4b5fd, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1528217901
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300038, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1528217898}
+  m_Mesh: {fileID: 4300030, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &1543016932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100062, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1543016933}
+  m_Layer: 0
+  m_Name: Compass001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1543016933
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400062, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1543016932}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2077730315}
+  m_Father: {fileID: 164179075}
+  m_RootOrder: 8
+--- !u!1 &1559723788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100078, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1559723789}
+  m_Layer: 0
+  m_Name: Sky006
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1559723789
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400078, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1559723788}
+  m_LocalRotation: {x: .707106829, y: 1.05367119e-08, z: 1.05367119e-08, w: .707106829}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 513692502}
+  m_RootOrder: 0
+--- !u!1 &1632306963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100038, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1632306964}
+  - 33: {fileID: 1632306966}
+  - 23: {fileID: 1632306965}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1632306964
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400038, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1632306963}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 4
+--- !u!23 &1632306965
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300024, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1632306963}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 1051da9b6b474204cb30bee3f2648fc9, type: 2}
+  - {fileID: 2100000, guid: b4979dc381b64ba4c87a565f82686d92, type: 2}
+  - {fileID: 2100000, guid: 4704ea3e98f097548845e2449030efb2, type: 2}
+  - {fileID: 2100000, guid: e228cd196520b0844939a65b57b2e697, type: 2}
+  - {fileID: 2100000, guid: 47be52953fa0bc2438ddb3efdc569539, type: 2}
+  - {fileID: 2100000, guid: bab79fb43bbbeb24992eb2c07f6b0eff, type: 2}
+  - {fileID: 2100000, guid: b85f90457732659458c9b06e2bbbfae4, type: 2}
+  - {fileID: 2100000, guid: 3569f1dfba81396469056d1e82f8d37d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1632306966
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300024, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1632306963}
+  m_Mesh: {fileID: 4300008, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &1640806235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100114, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1640806236}
+  m_Layer: 0
+  m_Name: Top Rail Type Elliptical - 1 1/2" x 1 1/8" [445881]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1640806236
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400114, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1640806235}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children: []
+  m_Father: {fileID: 164179075}
+  m_RootOrder: 12
+--- !u!1 &1664554611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1664554612}
+  - 33: {fileID: 1664554614}
+  - 23: {fileID: 1664554613}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments (2) (1)_MeshPart2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1664554612
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1664554611}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 105226497}
+  m_RootOrder: 2
+--- !u!23 &1664554613
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1664554611}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: b85f90457732659458c9b06e2bbbfae4, type: 2}
+  - {fileID: 2100000, guid: 3569f1dfba81396469056d1e82f8d37d, type: 2}
+  - {fileID: 2100000, guid: 47be52953fa0bc2438ddb3efdc569539, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1664554614
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1664554611}
+  m_Mesh: {fileID: 4300048, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &1679492817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1679492818}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1679492818
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1679492817}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children:
+  - {fileID: 876794456}
+  - {fileID: 28967432}
+  - {fileID: 555667021}
+  - {fileID: 1390498715}
+  - {fileID: 1632306964}
+  - {fileID: 347163745}
+  - {fileID: 651629918}
+  - {fileID: 94189100}
+  - {fileID: 369137690}
+  - {fileID: 1732576034}
+  - {fileID: 1010504164}
+  - {fileID: 1002433049}
+  - {fileID: 1365188733}
+  - {fileID: 1257458725}
+  m_Father: {fileID: 164179075}
+  m_RootOrder: 1
+--- !u!1 &1732576033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100048, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1732576034}
+  - 33: {fileID: 1732576036}
+  - 23: {fileID: 1732576035}
+  m_Layer: 0
+  m_Name: Achitectural_TeamChrome_Tower_Apartments_MeshPart9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1732576034
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400048, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1732576033}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679492818}
+  m_RootOrder: 9
+--- !u!23 &1732576035
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300034, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1732576033}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 3569f1dfba81396469056d1e82f8d37d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1732576036
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300034, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1732576033}
+  m_Mesh: {fileID: 4300018, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &1769346972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100088, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1769346973}
+  - 33: {fileID: 1769346975}
+  - 23: {fileID: 1769346974}
+  m_Layer: 0
+  m_Name: Structural_TeamChrome_Tower_Apartments_MeshPart2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1769346973
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400088, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1769346972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579859548}
+  m_RootOrder: 2
+--- !u!23 &1769346974
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300040, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1769346972}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: e4bcc0f458749c348bd4cc84c8e4b5fd, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1769346975
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300040, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1769346972}
+  m_Mesh: {fileID: 4300032, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &1856057669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100060, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1856057670}
+  m_Layer: 0
+  m_Name: Assembled Stair Stair [447370]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1856057670
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400060, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 1856057669}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children: []
+  m_Father: {fileID: 164179075}
+  m_RootOrder: 7
+--- !u!1 &1996936654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1996936659}
+  - 20: {fileID: 1996936658}
+  - 92: {fileID: 1996936657}
+  - 124: {fileID: 1996936656}
+  - 81: {fileID: 1996936655}
+  - 114: {fileID: 1996936660}
+  - 114: {fileID: 1996936661}
+  - 114: {fileID: 1996936662}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1996936655
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1996936654}
+  m_Enabled: 1
+--- !u!124 &1996936656
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1996936654}
+  m_Enabled: 1
+--- !u!92 &1996936657
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1996936654}
+  m_Enabled: 1
+--- !u!20 &1996936658
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1996936654}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967039
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+--- !u!4 &1996936659
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1996936654}
+  m_LocalRotation: {x: 0, y: -.129531771, z: 0, w: .991575301}
+  m_LocalPosition: {x: 23.9136658, y: 9.18569565, z: -16.9068146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &1996936660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1996936654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c7750410154e94e944af5f787baab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  targetOffset: {x: 0, y: 0, z: 0}
+  distance: 5
+  maxDistance: 20
+  minDistance: .600000024
+  xSpeed: 200
+  ySpeed: 200
+  yMinLimit: -80
+  yMaxLimit: 80
+  zoomRate: 40
+  panSpeed: .300000012
+  zoomDampening: 5
+--- !u!114 &1996936661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1996936654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3fe5553f1338d94b9b010eab7cf9451, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DatabaseName: 5465737444422e73716462
+  TableName: 546573745461626c65
+  db: {}
+  firstName: 4669727374204e616d65
+  lastName: 4c617374204e616d65
+  DatabaseEntryStringWidth: 100
+  scrollPosition: {x: 0, y: 0}
+--- !u!114 &1996936662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1996936654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d6467827f323d04a827371855d2a643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Main: {fileID: 11400000, guid: 45ebc67072c68444ba4460414ed342df, type: 2}
+  btnTexture: {fileID: 2800000, guid: 59c196fb0c37fbf42a7d279787c6f7ff, type: 3}
+  toolbarInt: 0
+  toolbarStrings:
+  - TOOLBAR1
+  - TOOLBAR2
+  - TOOLBAR3
+  - TOOLBAR4
+--- !u!1 &2018760566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100066, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2018760567}
+  m_Layer: 0
+  m_Name: Compass003
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2018760567
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400066, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 2018760566}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 513692502}
+  m_Father: {fileID: 662817730}
+  m_RootOrder: 2
+--- !u!1 &2026637821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100096, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2026637822}
+  - 33: {fileID: 2026637824}
+  - 23: {fileID: 2026637823}
+  m_Layer: 0
+  m_Name: Structural_TeamChrome_Tower_Apartments_MeshPart6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2026637822
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400096, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 2026637821}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579859548}
+  m_RootOrder: 6
+--- !u!23 &2026637823
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300048, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 2026637821}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 2622cfd2ed6e18b47856e0333bb72036, type: 2}
+  - {fileID: 2100000, guid: e4bcc0f458749c348bd4cc84c8e4b5fd, type: 2}
+  - {fileID: 2100000, guid: 4f91b021801801d4bb189417cfb0551d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &2026637824
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300048, guid: 08bb1bd975047f443aa3e82fda786b45,
+    type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 2026637821}
+  m_Mesh: {fileID: 4300040, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+--- !u!1 &2065692556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100072, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2065692557}
+  m_Layer: 0
+  m_Name: Railing Glass Panel - Bottom Fill [445858]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2065692557
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400072, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 2065692556}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children: []
+  m_Father: {fileID: 164179075}
+  m_RootOrder: 10
+--- !u!1 &2077051041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100104, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2077051042}
+  m_Layer: 0
+  m_Name: Sun006
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2077051042
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400104, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 2077051041}
+  m_LocalRotation: {x: .707106829, y: 1.05367119e-08, z: 1.05367119e-08, w: .707106829}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 513692502}
+  m_RootOrder: 1
+--- !u!1 &2077730314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100108, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2077730315}
+  m_Layer: 0
+  m_Name: SunAndSky-002 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2077730315
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400108, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 2077730314}
+  m_LocalRotation: {x: -.146826863, y: -.272092998, z: -.0420499779, w: .950073183}
+  m_LocalPosition: {x: -22.4188538, y: 13.4101963, z: 35.9299202}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 817310560}
+  - {fileID: 1510320986}
+  m_Father: {fileID: 1543016933}
+  m_RootOrder: 0
+--- !u!1 &2080892188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100110, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2080892189}
+  m_Layer: 0
+  m_Name: SunAndSky-002 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2080892189
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400110, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 2080892188}
+  m_LocalRotation: {x: .219003975, y: .246555895, z: -.0573020019, w: .94231838}
+  m_LocalPosition: {x: 25.5559883, y: -25.6391029, z: 45.4932022}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 891556849}
+  - {fileID: 1284686478}
+  m_Father: {fileID: 1432829662}
+  m_RootOrder: 0
+--- !u!1 &2083422295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2083422296}
+  m_Layer: 0
+  m_Name: '3D View: {3D} 2'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2083422296
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 2083422295}
+  m_LocalRotation: {x: .706280947, y: -.0341649465, z: .302498549, w: .639135838}
+  m_LocalPosition: {x: 19.5860863, y: 14.3429327, z: 9.6482935}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 500796264}
+  m_RootOrder: 0
+--- !u!1 &2135555468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100054, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2135555469}
+  m_Layer: 0
+  m_Name: Assembled Stair Stair [444076]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2135555469
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400054, guid: 08bb1bd975047f443aa3e82fda786b45, type: 3}
+  m_PrefabInternal: {fileID: 1390691124}
+  m_GameObject: {fileID: 2135555468}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children: []
+  m_Father: {fileID: 164179075}
+  m_RootOrder: 4

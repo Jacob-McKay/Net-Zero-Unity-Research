@@ -25,7 +25,7 @@ public class ToolBar : MonoBehaviour {
 				Application.LoadLevel (Application.loadedLevelName);
 			}
 			if(toolbarInt == 1){
-				Application.LoadLevel ("Existing");
+				Application.LoadLevel ("Campus_Model");
 			}
 			if(toolbarInt == 2){
 				print ("You clicked the third button!");
