@@ -9,7 +9,7 @@ public class MainNavigation : MonoBehaviour
     public float distanceMax = 50f;
     public float xSpeed = 10.0f;
     public float ySpeed = 50.0f;
-    public float yMinLimit = 0f;
+    public float yMinLimit = 20f;
     public float yMaxLimit = 80f;
     public float smoothTime = 10f;
 
