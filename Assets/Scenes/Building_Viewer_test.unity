@@ -493,7 +493,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100122, guid: d941504e77dc11d4b9eaf2cee73d98e0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d941504e77dc11d4b9eaf2cee73d98e0, type: 3}
@@ -779,7 +779,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &125581280
 Transform:
   m_ObjectHideFlags: 0
@@ -6794,7 +6794,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1540581995
 Transform:
   m_ObjectHideFlags: 0
@@ -7674,6 +7674,10 @@ Prefab:
     - target: {fileID: 400036, guid: 7612dc21fdc9de6479ef201649cf091b, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7612dc21fdc9de6479ef201649cf091b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7612dc21fdc9de6479ef201649cf091b, type: 3}
@@ -8936,7 +8940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingFloors: []
-  selectedBuilding: {fileID: 1540581994}
+  selectedBuilding: {fileID: 125581279}
 --- !u!114 &1996936662
 MonoBehaviour:
   m_ObjectHideFlags: 0
