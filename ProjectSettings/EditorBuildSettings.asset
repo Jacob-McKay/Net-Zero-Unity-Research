@@ -8,4 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Campus_Model.unity
   - enabled: 1
+    path: Assets/Scenes/Building_Viewer_test.unity
+  - enabled: 1
     path: Assets/Scenes/Building_Viewer.unity

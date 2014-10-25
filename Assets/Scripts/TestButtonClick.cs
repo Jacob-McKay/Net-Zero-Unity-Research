@@ -8,11 +8,16 @@ public class TestButtonClick : MonoBehaviour
 		public List<GameObject> buildingFloors;
 		public GameObject selectedBuilding;
 		private int currentFloor; //have a private variable that stores an INT for what is the current floor being viewed?
+		private string newbuilding;
 
 		void Start ()
 		{
-				//trying to get all floors of the building in question
-				//initialize buildingFloors when we know how
+				//getting selected building name from previous scene
+				newbuilding = retainInfoForNewScene.selectedBuilding2;
+				Debug.Log (newbuilding);
+				//load the building from prefab and set selectedBuilding to loaded building
+				GameObject go = (GameObject)Instantiate (Resources.Load (newbuilding));
+				selectedBuilding = go;
 
 				//shitty titty iterate over all of them for now :(
 				//hopefully can find a solution that just gives all children in one call
@@ -33,7 +38,6 @@ public class TestButtonClick : MonoBehaviour
 						splitfloor.position = newPOS;
 				}
 
-				
 				/*
 		Debug.Log("child count of selectedBuilding: " + selectedBuilding.transform.childCount);
 			foreach (Transform buildingTransform in buildingFloors) {
@@ -48,9 +52,9 @@ public class TestButtonClick : MonoBehaviour
 
 				Transform topfloor = buildingFloors [currentFloor - 1].transform;
 				Vector3 newPOS = new Vector3 (topfloor.position.x, topfloor.position.y + 300, topfloor.position.z);
-		//WHY DOESNT THIS WORK? DO I NEED TO START A COROUTINE SINCE IT ISNT IN UPDATE?
-		//topfloor.position = Vector3.Lerp(topfloor.position, newPOS, Time.deltaTime * 5f);
-		topfloor.position = newPOS;
+				//WHY DOESNT THIS WORK? DO I NEED TO START A COROUTINE SINCE IT ISNT IN UPDATE?
+				//topfloor.position = Vector3.Lerp(topfloor.position, newPOS, Time.deltaTime * 5f);
+				topfloor.position = newPOS;
 				currentFloor = currentFloor - 1;
 				Debug.Log (currentFloor);
 		}

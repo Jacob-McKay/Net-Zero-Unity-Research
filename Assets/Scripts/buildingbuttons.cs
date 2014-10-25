@@ -17,16 +17,16 @@ public class buildingbuttons : MonoBehaviour
 	
 		void  OnMouseEnter ()
 		{
-				isHighlighted = true;
-				startcolor = renderer.material.color;
-				renderer.material.color = Color.red;
+				//isHighlighted = true;
+				//startcolor = renderer.material.color;
+				//renderer.material.color = Color.red;
 				//Debug.Log ("Aw Snap, " + this.target + " was hoverty hovered!!");
 		}
 	
 		void  OnMouseExit ()
 		{
-				isHighlighted = false;
-				renderer.material.color = startcolor;
+				//isHighlighted = false;
+				//renderer.material.color = startcolor;
 		}
 
 		void Update ()
