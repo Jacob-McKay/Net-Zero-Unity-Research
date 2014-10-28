@@ -4,13 +4,14 @@ using System.Collections;
 public class MainNavigation : MonoBehaviour
 {  
 		public Transform target;
-		public float distance = 10.0f;
+		public float distance = 200.0f;
 		public float distanceMin = 5f;
-		public float distanceMax = 50f;
+		public float distanceMax = 500f;
 		public float xSpeed = 10.0f;
 		public float ySpeed = 50.0f;
 		public float yMinLimit = 0f;
 		public float yMaxLimit = 80f;
+		public float scrollSpeed = 50f;
 		public float smoothTime = 10f;
 		float rotationYAxis = 0.0f;
 		float rotationXAxis = 0.0f;
@@ -80,12 +81,7 @@ public class MainNavigation : MonoBehaviour
 				Quaternion toRotation = Quaternion.Euler (rotationXAxis, rotationYAxis, 0);
 				Quaternion rotation = toRotation;
 				// affect the desired Zoom distance if we roll the scrollwheel
-				distance = Mathf.Clamp (distance - Input.GetAxis ("Mouse ScrollWheel") * 5, distanceMin, distanceMax);
-
-				RaycastHit hit;
-				if (Physics.Linecast (target.position, transform.position, out hit)) {
-						distance -= hit.distance;
-				}
+				distance = Mathf.Clamp (distance - Input.GetAxis ("Mouse ScrollWheel") * scrollSpeed, distanceMin, distanceMax);
 
 				Vector3 negDistance = new Vector3 (0.0f, 0.0f, -distance);
 				Vector3 position = rotation * negDistance + target.position;
