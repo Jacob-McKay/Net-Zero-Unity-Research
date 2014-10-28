@@ -9,6 +9,7 @@ public class TestButtonClick : MonoBehaviour
 		public GameObject selectedBuilding;
 		private int currentFloor; //have a private variable that stores an INT for what is the current floor being viewed?
 		private string newbuilding;
+	public maxCamera cameraTarget;
 
 		void Start ()
 		{
