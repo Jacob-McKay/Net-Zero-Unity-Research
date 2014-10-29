@@ -2451,7 +2451,6 @@ GameObject:
   - 124: {fileID: 1996936656}
   - 81: {fileID: 1996936655}
   - 114: {fileID: 1996936660}
-  - 114: {fileID: 1996936661}
   - 114: {fileID: 1996936662}
   m_Layer: 0
   m_Name: Main Camera
@@ -2548,24 +2547,6 @@ MonoBehaviour:
   zoomRate: 40
   panSpeed: .300000012
   zoomDampening: 5
---- !u!114 &1996936661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1996936654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3fe5553f1338d94b9b010eab7cf9451, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DatabaseName: 5465737444422e73716462
-  TableName: 546573745461626c65
-  db: {}
-  firstName: 4669727374204e616d65
-  lastName: 4c617374204e616d65
-  DatabaseEntryStringWidth: 100
-  scrollPosition: {x: 0, y: 0}
 --- !u!114 &1996936662
 MonoBehaviour:
   m_ObjectHideFlags: 0
