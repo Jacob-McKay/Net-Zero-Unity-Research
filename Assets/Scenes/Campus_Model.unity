@@ -2657,7 +2657,7 @@ GameObject:
   - 114: {fileID: 416436974}
   - 114: {fileID: 416436973}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Kern Center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2701,7 +2701,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 416436974}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 545354516}
+        m_MethodName: OpenPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Animator, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &416436974
@@ -3468,7 +3480,7 @@ GameObject:
   - 114: {fileID: 523268946}
   - 114: {fileID: 523268945}
   m_Layer: 5
-  m_Name: ButtonOut
+  m_Name: OpenPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3531,16 +3543,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1491656032}
-        m_MethodName: startAnimateBox
-        m_Mode: 1
+      - m_Target: {fileID: 1889050741}
+        m_MethodName: Play
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Open
           m_BoolArgument: 0
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -3603,6 +3615,59 @@ Transform:
   - {fileID: 1080484996}
   m_Father: {fileID: 447476049}
   m_RootOrder: 9
+--- !u!1 &545354514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 545354515}
+  - 114: {fileID: 545354517}
+  - 114: {fileID: 545354516}
+  m_Layer: 0
+  m_Name: MenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &545354515
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 545354514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -38.1875, y: -336.625, z: 441}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1491656031}
+  m_RootOrder: 1
+--- !u!114 &545354516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 545354514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 078f1b775b7d34640a98f19a0345afc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initiallyOpen: {fileID: 0}
+--- !u!114 &545354517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 545354514}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e97a956fd0d28948847a9d603d0a7f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sidePanel: {fileID: 0}
 --- !u!1 &551812714
 GameObject:
   m_ObjectHideFlags: 0
@@ -4569,7 +4634,7 @@ GameObject:
   - 114: {fileID: 714579197}
   - 114: {fileID: 714579196}
   m_Layer: 5
-  m_Name: Button
+  m_Name: MLH
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7566,7 +7631,7 @@ GameObject:
   - 114: {fileID: 1295020421}
   - 114: {fileID: 1295020420}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Parking Structure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8635,7 +8700,7 @@ GameObject:
   - 114: {fileID: 1491656029}
   - 114: {fileID: 1491656032}
   m_Layer: 5
-  m_Name: Building List
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8685,6 +8750,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1889050737}
+  - {fileID: 545354515}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
@@ -9960,7 +10026,7 @@ GameObject:
   - 114: {fileID: 1685550857}
   - 114: {fileID: 1685550856}
   m_Layer: 5
-  m_Name: Button
+  m_Name: RWJ
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10065,7 +10131,7 @@ GameObject:
   - 114: {fileID: 1686980027}
   - 114: {fileID: 1686980026}
   m_Layer: 5
-  m_Name: Button
+  m_Name: CC Building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10306,7 +10372,7 @@ GameObject:
   - 114: {fileID: 1699567317}
   - 114: {fileID: 1699567316}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Library
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11214,7 +11280,7 @@ GameObject:
   - 114: {fileID: 1841041575}
   - 114: {fileID: 1841041574}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Science Building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11463,8 +11529,9 @@ GameObject:
   - 222: {fileID: 1889050739}
   - 114: {fileID: 1889050738}
   - 114: {fileID: 1889050740}
+  - 95: {fileID: 1889050741}
   m_Layer: 5
-  m_Name: Panel1
+  m_Name: Building List
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11529,6 +11596,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sidePanel: {fileID: 0}
+--- !u!95 &1889050741
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889050736}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6b032f0c748a56748a29ea12cc35f473, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1914643853
 GameObject:
   m_ObjectHideFlags: 0
@@ -11607,7 +11689,7 @@ GameObject:
   - 114: {fileID: 1932506688}
   - 114: {fileID: 1932506687}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
