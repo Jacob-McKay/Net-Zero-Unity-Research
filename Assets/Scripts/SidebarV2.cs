@@ -4,31 +4,29 @@ using System.Collections.Generic;
 
 public class SidebarV2 : MonoBehaviour
 {
-
-		float MyBoxLeft = Screen.width;
-		float sidebarclosed = Screen.width;
-		float sidebaropen = Screen.width - 400.0F;
-		int SidebarInt = 0;
-		public float smoothTime = 0.3F;
-		private Vector3 velocity = Vector3.zero;
-	public Transform splitfloor;
+		public Transform sidePanel;
 
 		void Start ()
 		{
-		//Transform splitfloor = this.transform;
-		Vector3 newPOS = new Vector2 (splitfloor.position.x, splitfloor.position.y + 3000);
-		splitfloor.position = newPOS;
-		Debug.Log (splitfloor.position.x);
-		Debug.Log (splitfloor.position.y);
-		Debug.Log (splitfloor.position.y+3000);
 		}
 
-		void  OnMouseEnter ()
+		public void startAnimateBox ()
 		{
-			
+		Debug.Log ("start position x= " + sidePanel.position.x + "y= " + sidePanel.position.y + "z= " + sidePanel.position.z);
+				Vector3 source = new Vector3 (Screen.width-1000, sidePanel.position.y, sidePanel.position.z);
+				Vector3 target = new Vector3 (600, sidePanel.position.y, sidePanel.position.z);
+				StartCoroutine (MoveObject (source, target, 1));
 		}
 
-		void  Update ()
+		//sidebar animation
+		IEnumerator MoveObject (Vector3 source, Vector3 target, float overTime)
 		{
+				float startTime = Time.time;
+				while (Time.time < startTime + overTime) {
+						transform.position = Vector3.Lerp (source, target, (Time.time - startTime) / overTime);
+						yield return null;
+				}
+				//transform.position = target;
 		}
+
 }
