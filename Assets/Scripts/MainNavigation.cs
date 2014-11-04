@@ -4,6 +4,7 @@ using System.Collections;
 public class MainNavigation : MonoBehaviour
 {  
 		public Transform target;
+		public Vector3 target2;
 		public float distance = 200.0f;
 		public float distanceMin = 5f;
 		public float distanceMax = 500f;
@@ -13,6 +14,7 @@ public class MainNavigation : MonoBehaviour
 		public float yMaxLimit = 80f;
 		public float scrollSpeed = 50f;
 		public float smoothTime = 10f;
+		public float changeTargetSmoothTime = 5f;
 		float rotationYAxis = 0.0f;
 		float rotationXAxis = 0.0f;
 		float velocityX = 0.0f;
@@ -45,24 +47,15 @@ public class MainNavigation : MonoBehaviour
 
 		void Update ()
 		{
-				Ray ray = camera.ScreenPointToRay (new Vector3 (200, 200, 0));
-				Debug.DrawRay (ray.origin, ray.direction * 10, Color.yellow, 10.0f);
-		}
-	
-		void LateUpdate ()
-		{
 				//change target based on what object is selected with "MSOE" tag via left click
 				if (Input.GetMouseButtonDown (0)) {
 						Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
-						RaycastHit hit2;
-						if (Physics.Raycast (ray, out hit2) && hit2.collider.tag == "MSOE") {
-								GameObject[] msoebuildings;
-								msoebuildings = GameObject.FindGameObjectsWithTag ("MSOE");
-								foreach (GameObject go in msoebuildings) {
-										if (go == hit2.collider.gameObject) {
-												target = go.transform;
-										}
-								}
+						RaycastHit hit;
+						if (Physics.Raycast (ray, out hit) && hit.collider.tag == "MSOE") {
+								//target = hit.collider.transform.position;
+								Vector3 newTarget = hit.collider.transform.position;
+								//Transform oldTarget = target;
+								StartCoroutine (lerpCameraTarget (target, newTarget, 2f));
 						}
 				}
 
@@ -100,5 +93,22 @@ public class MainNavigation : MonoBehaviour
 				if (angle > 360F)
 						angle -= 360F;
 				return Mathf.Clamp (angle, min, max);
+		}
+
+		public void setCameraTargetFromSidebar ()
+		{
+				Debug.Log ("before coroutine");
+				//StartCoroutine (lerpCameraTarget (target, target2, 2f));
+				Debug.Log ("after coroutine");
+		}
+		//coroutine to lerp between old target and new target
+		IEnumerator lerpCameraTarget (Transform target, Vector3 newTarget, float overTime)
+		{
+				float startTime = Time.time;
+				while (Time.time < startTime + overTime) {
+						target.position = Vector3.Lerp (target.position, newTarget, Time.deltaTime * changeTargetSmoothTime);
+						yield return null;
+				}
+				target.position = newTarget;
 		}
 }

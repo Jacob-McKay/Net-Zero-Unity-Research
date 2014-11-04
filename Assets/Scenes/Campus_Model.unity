@@ -2702,12 +2702,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: OpenPanel
-        m_Mode: 2
+      - m_Target: {fileID: 1889050740}
+        m_MethodName: changetarget
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Animator, UnityEngine, Version=0.0.0.0,
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -4031,7 +4031,7 @@ GameObject:
   - 114: {fileID: 570462853}
   - 114: {fileID: 570462857}
   m_Layer: 0
-  m_Name: Tower2
+  m_Name: Tower
   m_TagString: MSOE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4055,7 +4055,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 570462851}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c93b7c0804de964aaa34144e60326f6, type: 3}
   m_Name: 
@@ -4112,7 +4112,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 570462851}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd8ff7de70bbea447bee0a0459099e64, type: 3}
   m_Name: 
@@ -7342,7 +7342,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: e625f4608dbf4eb42aa14d5de095e8ab, type: 3}
       propertyPath: m_Name
-      value: Tower2
+      value: Tower
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: e625f4608dbf4eb42aa14d5de095e8ab, type: 3}
       propertyPath: m_Name
@@ -12518,6 +12518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sidePanel: {fileID: 0}
+  nav: {fileID: 0}
 --- !u!95 &1889050741
 Animator:
   serializedVersion: 3
@@ -12673,7 +12674,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1932506688}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1889050740}
+        m_MethodName: changetarget
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1932506688
@@ -12966,6 +12979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  target2: {x: 0, y: 0, z: 0}
   distance: 200
   distanceMin: 5
   distanceMax: 500
@@ -12975,6 +12989,7 @@ MonoBehaviour:
   yMaxLimit: 80
   scrollSpeed: 50
   smoothTime: 10
+  changeTargetSmoothTime: 5
 --- !u!1 &1960486404
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ public class TestButtonClick : MonoBehaviour
 		private int currentFloor; //have a private variable that stores an INT for what is the current floor being viewed?
 		private string newbuilding;
 		public maxCamera cameraTarget;
+		public float smooth = 2f;
 
 		void Start ()
 		{
@@ -58,27 +59,28 @@ public class TestButtonClick : MonoBehaviour
 				//StartCoroutine (animateBuildingFloor (topfloor, newPOS, 5f));
 				topfloor.position = newPOS;
 				currentFloor = currentFloor - 1;
-				//StopCoroutine ("animateBuildingFloor");
 				Debug.Log (currentFloor);
+				//StopCoroutine ("animateBuildingFloor");
+				Debug.Log ("current floor2 = " + currentFloor);
 		}
 
 		public void downButton ()
 		{
 				Transform topfloor = buildingFloors [currentFloor].transform;
 				Vector3 newPOS = new Vector3 (topfloor.position.x, topfloor.position.y - 300, topfloor.position.z);
+				//StartCoroutine (animateBuildingFloor (topfloor, newPOS, 5f));
 				topfloor.position = newPOS;
 				currentFloor = currentFloor + 1;
 				Debug.Log (currentFloor);
 		}
-
 		//coroutine to animate floors
 		IEnumerator animateBuildingFloor (Transform topfloor2, Vector3 newPOS2, float overTime)
 		{
 				float startTime = Time.time;
 				while (Time.time < startTime + overTime) {
-						Debug.Log ("pos2 = " + newPOS2);
-						Debug.Log ("topfloor2 = " + topfloor2.position);
-						topfloor2.position = Vector3.Lerp (topfloor2.position, newPOS2, (Time.time - startTime) / overTime);
+						//Debug.Log ("pos2 = " + newPOS2);
+						//Debug.Log ("topfloor2 = " + topfloor2.position);
+						topfloor2.position = Vector3.Lerp (topfloor2.position, newPOS2, Time.deltaTime * smooth);
 						yield return null;
 				}
 				topfloor2.position = newPOS2;

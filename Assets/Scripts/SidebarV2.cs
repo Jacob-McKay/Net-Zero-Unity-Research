@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class SidebarV2 : MonoBehaviour
 {
 		public Transform sidePanel;
+		public MainNavigation nav;
 
 		void Start ()
 		{
@@ -12,8 +13,8 @@ public class SidebarV2 : MonoBehaviour
 
 		public void startAnimateBox ()
 		{
-		Debug.Log ("start position x= " + sidePanel.position.x + "y= " + sidePanel.position.y + "z= " + sidePanel.position.z);
-				Vector3 source = new Vector3 (Screen.width-1000, sidePanel.position.y, sidePanel.position.z);
+				Debug.Log ("start position x= " + sidePanel.position.x + "y= " + sidePanel.position.y + "z= " + sidePanel.position.z);
+				Vector3 source = new Vector3 (Screen.width - 1000, sidePanel.position.y, sidePanel.position.z);
 				Vector3 target = new Vector3 (600, sidePanel.position.y, sidePanel.position.z);
 				StartCoroutine (MoveObject (source, target, 1));
 		}
@@ -27,6 +28,17 @@ public class SidebarV2 : MonoBehaviour
 						yield return null;
 				}
 				//transform.position = target;
+		}
+
+		public void changetarget ()
+		{
+				string building = this.gameObject.name;
+				GameObject buildingobject;
+				buildingobject = GameObject.Find ("Tower");
+				Debug.Log (buildingobject.transform.position);
+				Vector3 buildingVector = new Vector3 (buildingobject.transform.position.x, buildingobject.transform.position.y, buildingobject.transform.position.z);
+				//building = GameObject.Find (building.ToString);
+				nav.setCameraTargetFromSidebar ();
 		}
 
 }
