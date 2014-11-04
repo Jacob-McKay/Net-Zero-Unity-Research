@@ -13,7 +13,7 @@ public class ToolBar : MonoBehaviour {
 		//assign custom GUISKIN
 		GUI.skin = Main;
 		//MSOE LOGO
-		GUI.DrawTexture(new Rect(0, 0, 150, 179),btnTexture, ScaleMode.StretchToFill, true);
+		//GUI.DrawTexture(new Rect(0, 0, 150, 179),btnTexture, ScaleMode.StretchToFill, true);
 		//BUILDING LIST SIDEBAR BUTTON
 		//if (GUI.Button(new Rect(Screen.width - 25 , Screen.height / 2 - 50 , 25 , 50), "<"))
 			//GUI.DrawTexture(new Rect(Screen.width / 2 , Screen.height - 30, Screen.width / 2 , Screen.height - 30 ),btnTexture, ScaleMode.StretchToFill, true);

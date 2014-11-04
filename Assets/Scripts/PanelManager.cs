@@ -14,12 +14,12 @@ public class PanelManager : MonoBehaviour {
 	
 	public void OnEnable()
 	{
-//		m_OpenParameterId = Animator.StringToHash ("Open");
-//		
-//		if (initiallyOpen == null)
-//			return;
-//		
-//		OpenPanel(initiallyOpen);
+		m_OpenParameterId = Animator.StringToHash ("Open");
+
+		if (initiallyOpen == null)
+			return;
+
+		OpenPanel(initiallyOpen);
 	}
 	
 	public void OpenPanel (Animator anim)
