@@ -4029,8 +4029,9 @@ GameObject:
   - 23: {fileID: 570462855}
   - 65: {fileID: 570462854}
   - 114: {fileID: 570462853}
+  - 114: {fileID: 570462857}
   m_Layer: 0
-  m_Name: Tower
+  m_Name: Tower2
   m_TagString: MSOE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4054,7 +4055,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 570462851}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c93b7c0804de964aaa34144e60326f6, type: 3}
   m_Name: 
@@ -4105,6 +4106,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1198673758}
   m_GameObject: {fileID: 570462851}
   m_Mesh: {fileID: 4300004, guid: e625f4608dbf4eb42aa14d5de095e8ab, type: 3}
+--- !u!114 &570462857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 570462851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8ff7de70bbea447bee0a0459099e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script: {fileID: 0}
 --- !u!1 &576381497
 GameObject:
   m_ObjectHideFlags: 0
@@ -7329,7 +7342,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: e625f4608dbf4eb42aa14d5de095e8ab, type: 3}
       propertyPath: m_Name
-      value: Tower
+      value: Tower2
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: e625f4608dbf4eb42aa14d5de095e8ab, type: 3}
       propertyPath: m_Name
