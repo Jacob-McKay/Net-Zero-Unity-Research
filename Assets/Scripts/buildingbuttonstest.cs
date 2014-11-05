@@ -29,6 +29,7 @@ public class buildingbuttonstest : MonoBehaviour
 		void OnMouseExit ()
 		{
 				renderer.material.color = startcolor;
+		StartCoroutine (wait ());
 				//isHighlighted = false;
 		}
 
@@ -68,10 +69,6 @@ public class buildingbuttonstest : MonoBehaviour
 				foreach (GameObject g in go) {
 						GameObject testPrefab = Instantiate (Resources.Load ("buildingbutton", typeof(GameObject))) as GameObject;
 						testPrefab.transform.position = new Vector3 (g.transform.position.x, g.transform.position.y + 2, g.transform.position.z);
-//			GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-//			cube.transform.position = new Vector3(g.transform.position.x, 2, g.transform.position.z);
-//			cube.transform.localScale = new Vector3(.5f,.5f,.5f);
-//			cube.transform.gameObject.tag = "Respawn";
 				}
 		}
 
@@ -89,4 +86,8 @@ public class buildingbuttonstest : MonoBehaviour
 						//iTween.MoveBy(g, iTween.Hash("y", .5, "easeType", "easeInOutSine", "loopType", "pingPong", 0, 1));
 				}
 		}
+	IEnumerator wait() {
+		yield return new WaitForSeconds (3);
+		isHighlighted = false;
+	}
 }
