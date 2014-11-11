@@ -95,10 +95,12 @@ public class MainNavigation : MonoBehaviour
 				return Mathf.Clamp (angle, min, max);
 		}
 
-		public void setCameraTargetFromSidebar ()
+		public void setCameraTargetFromSidebar (Transform target3, Vector3 newTarget2)
 		{
 				Debug.Log ("before coroutine");
-				//StartCoroutine (lerpCameraTarget (target, target2, 2f));
+				Debug.Log (target3);
+				Debug.Log (newTarget2);
+				StartCoroutine (lerpCameraTarget (target3, newTarget2, 2f));
 				Debug.Log ("after coroutine");
 		}
 		//coroutine to lerp between old target and new target

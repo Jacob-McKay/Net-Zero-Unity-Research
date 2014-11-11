@@ -5,6 +5,8 @@ using System.Collections.Generic;
 public class SidebarV2 : MonoBehaviour
 {
 		public Transform sidePanel;
+		public float changeTargetSmoothTime = 5f;
+		public Transform target;
 		public MainNavigation nav;
 
 		void Start ()
@@ -33,12 +35,19 @@ public class SidebarV2 : MonoBehaviour
 		public void changetarget ()
 		{
 				string building = this.gameObject.name;
+				
+		GameObject buildingobject2;
+		buildingobject2 = GameObject.Find ("RWJ");
+		target = buildingobject2.transform;
+		Debug.Log (target);
+
+
 				GameObject buildingobject;
 				buildingobject = GameObject.Find ("Tower");
-				Debug.Log (buildingobject.transform.position);
 				Vector3 buildingVector = new Vector3 (buildingobject.transform.position.x, buildingobject.transform.position.y, buildingobject.transform.position.z);
 				//building = GameObject.Find (building.ToString);
-				nav.setCameraTargetFromSidebar ();
-		}
 
+				nav = new MainNavigation ();
+				nav.setCameraTargetFromSidebar (target, buildingVector);
+		}
 }
