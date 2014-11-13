@@ -6,7 +6,7 @@ public class PostURL : MonoBehaviour {
 	
 	void Start () {
 		
-		string url = "http://127.0.0.1/NetZero";
+		string url = "http://155.92.205.140/NZE/";
 		
 
 		WWW www = new WWW(url);
